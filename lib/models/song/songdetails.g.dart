@@ -15,7 +15,6 @@ TrackModel _$TrackModelFromJson(Map<String, dynamic> json) {
         ? null
         : TrackWikiModel.fromJson(json['wiki'] as Map<String, dynamic>),
     name: json['name'] as String,
-    url: json['url'] as String,
   );
 }
 
@@ -24,5 +23,4 @@ Map<String, dynamic> _$TrackModelToJson(TrackModel instance) =>
       'album': instance.album,
       'wiki': instance.wiki,
       'name': instance.name,
-      'url': instance.url,
     };

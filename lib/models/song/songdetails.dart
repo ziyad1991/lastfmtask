@@ -9,9 +9,8 @@ class TrackModel {
   TrackAlbumModel? album;
   TrackWikiModel? wiki;
   String name;
-  String url;
 
-  TrackModel({this.album, this.wiki, required this.name, required this.url});
+  TrackModel({this.album, this.wiki, required this.name});
 
   factory TrackModel.fromJson(Map<String, dynamic> json) =>
       _$TrackModelFromJson(json);

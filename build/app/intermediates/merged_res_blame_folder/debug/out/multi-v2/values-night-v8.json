@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ziyad/AndroidStudioProjects/thelastfmtest_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/ziyad/Documents/GitHub/lastfmtask/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/ziyad/AndroidStudioProjects/thelastfmtest_app/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/ziyad/Documents/GitHub/lastfmtask/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

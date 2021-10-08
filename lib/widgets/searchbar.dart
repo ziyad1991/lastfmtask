@@ -32,7 +32,7 @@ class _SearchBarState extends State<SearchBar> {
       width: 350.0,
       child: FloatingSearchBar(
         controller: controller,
-        hint: 'Enter an artist , track or album',
+        hint: 'Enter song or artist or album',
         physics: const BouncingScrollPhysics(),
         title: Text(Provider.of<serachdata>(context).searchvalue
             // searchTermEntered ?? 'Enter an artist , track or album',
